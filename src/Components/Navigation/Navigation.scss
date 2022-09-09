@@ -1,0 +1,41 @@
+.nav-container {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+.app-name {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+}
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+.app-name {
+  text-transform: uppercase;
+}
+.nav-middle {
+  .nav-link:not(:last-child) {
+    margin-right: 25px;
+  }
+}
+
+.nav-right {
+  .nav-link:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+.auth {
+  border: 1.8px solid #fff;
+  border-radius: 10px;
+  padding: 4px 16px 7px 16px;
+}
+
+.signup {
+  background-image: linear-gradient(to right bottom, #7ed56f, #25b485);
+}

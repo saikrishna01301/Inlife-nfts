@@ -1,0 +1,114 @@
+.home-container {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  margin-top: 40px;
+  position: relative;
+}
+.col-1 {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  &__heading {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  &__para {
+    color: #999;
+    margin-bottom: 25px;
+  }
+  &__btns {
+    .btn {
+      background-color: #000;
+      color: #fff;
+      border: 1.8px solid #fff;
+      font-size: 16px;
+      padding: 12px 50px;
+      border-radius: 10px;
+      margin-bottom: 50px;
+    }
+    .btn-left {
+      margin-right: 20px;
+    }
+    .btn-right {
+      background-image: linear-gradient(to right, #7ed56f, #25b485);
+    }
+  }
+}
+
+.heading-span {
+  background-image: linear-gradient(to right bottom, #7ed56f, #25b485);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.home-counts {
+  display: flex;
+}
+
+.count-heading {
+  font-size: 40px;
+}
+.count-container:not(:last-child) {
+  margin-right: 50px;
+}
+
+//////////////////////////////////////////
+
+.col-2 {
+  position: absolute;
+  top: 10%;
+  right: -5%;
+}
+.circle-wrapper {
+  width: 30vw;
+  height: 30vw;
+  clip-path: circle(40%);
+  background-color: #7ed56f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: calc(30vw - 10px);
+  height: calc(30vw - 10px);
+  background-color: #7ed56f;
+  border-radius: 50%;
+  filter: blur(45px) drop-shadow(-10px -10px 75px #7ed56f);
+}
+
+.shadow-purple {
+  filter: drop-shadow(10px 10px 200px #7ed56f)
+    drop-shadow(-10px -10px 50px #7ed56f);
+}
+///////////////////////////////
+
+.testimonials {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.testimonial {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon {
+  width: 78px;
+  height: 78px;
+}
+.heading-2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.para {
+  font-size: 16px;
+  color: #999;
+  text-align: center;
+}
