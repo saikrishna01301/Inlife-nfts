@@ -15,24 +15,24 @@ const Navigation = () => {
           <Link className="nav-link" to="/">
             Home
           </Link>
-          <Link className="nav-link" to="/Live">
+          <Link className="nav-link" to="/live">
             Live Action
           </Link>
-          <Link className="nav-link" to="/About">
+          <Link className="nav-link" to="/about">
             About Us
           </Link>
-          <Link className="nav-link" to="/Community">
+          <Link className="nav-link" to="/community">
             Community
           </Link>
-          <Link className="nav-link" to="/Contact">
+          <Link className="nav-link" to="/contact">
             Contact
           </Link>
         </div>
         <div className="nav-right">
-          <Link className="nav-link auth" to="/SignIn">
+          <Link className="nav-link auth" to="/signin">
             Sign in
           </Link>
-          <Link className="nav-link auth signup" to="/SignUp">
+          <Link className="nav-link auth signup" to="/signup">
             Sign up
           </Link>
         </div>
