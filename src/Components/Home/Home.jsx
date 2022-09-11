@@ -18,7 +18,7 @@ const Home = () => {
           </div>
           <p className="col-1__para">
             Buy,sell, and grow your crypto with Crypto with coinFlip, the
-            platform dedicated to every trader at every level.
+            platform <br/>dedicated to every trader at every level.
           </p>
           <div className="col-1__btns">
             <button className="btn btn-left">Sign in</button>
